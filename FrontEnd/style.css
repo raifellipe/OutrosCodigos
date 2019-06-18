@@ -1,0 +1,50 @@
+#titulo1{color:green;}/* o Id de um elemento HTML é chamado com uma #*/
+#titulo2{color: purple;}
+.textoAzul{color: blue;}/*A classe é usado um .nomedaclasse*/
+body{ /*A estilização pode ser feita por tag tbm, nesse caso os atributos se aplicam a todos daquele tipo*/
+
+	background-color: #999999
+	/* 
+	background-image:url(local da imagem);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;(scroll, local)
+	*/
+
+}
+#divi{
+	background-color: #bbbbbb
+}
+
+#cm{
+	background-color: blue;
+	width: 1cm;
+	height: 1cm;
+}
+#mm{
+	background-color: red;
+	width: 5mm;
+	height: 5mm;
+}
+#im{
+	background-color: green;
+	width: 1in;
+	height: 1in;
+}
+#px{
+	background-color: red;
+	width: 5px;
+	height: 5px;
+}
+#pt{
+	background-color: red;
+	width: 5pt;
+	height: 5pt;
+}
+#pq{
+	background-color: red;
+	width: 1pc;
+	height: 1pc;
+}
+
+

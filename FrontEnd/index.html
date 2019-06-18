@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Teste</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel = "stylesheet">
+
+		<!-- estilização CSS interno
+		<style type="text/css">
+			p{
+				color:blue;
+			}
+		</style>
+		-->
+		
+
+	</head>
+	<body>
+		<!-- 
+		Estilização com CSS externo, ID é unico pra cada elemento html e CLASS pode repetir em mais elementos
+		-->
+
+		<h1 id = "titulo1" >Título Principal</h1><!-- sempre utilizar um só por pagina -->
+		<h2 id = "titulo2">SubTítulo</h2>
+		<h3>Titulo Menor</h3>
+		<a href="#internetGuide">Ir para a imagem</a>
+		<p>Tag de paragrafo</p>
+		<p><b>Negrito</b></p>
+		<!-- A prioridade citada a baixo é onde o google busca, ele pode dar mais prioridade em uma busca 
+		se o que foi buscado estava em uma tag <strong> por exemplo -->
+		<p class = "textoAzul"><strong>Negrito com prioridade</strong></p>
+		<p><i>Italico</i></p>
+		<p class = "textoAzul"><em>Italico com prioridade</em></p>
+		<p><small>Texto Menor</small></p>
+		<p id = "marca"><mark>Texto Marcado</mark></p>
+		<p><s>Texto Contado</s></p>
+		<p class = "textoAzul"><del>Texto Cortado com prioridade</del></p>
+		<p><u>Texto Sublinhado</u></p>
+		<p class = "textoAzul"><ins>Texto Sublinhado com prioridade</ins></p>
+		<p>Exemplo<sub>Texto Subscrito</sub></p>
+		<p>Exemplo<sup>Texto Superscript</sup></p>
+		<a href="sobre.html"> Pagina Sobre </a>
+		<br>
+		<a href ="mailto:raiborges96@gmail.com">Enviar Email</a>
+		<!-- para fazer uma imagem de link, basta colocar a tag de img dentro da a -->
+		<hr><!-- Linha de divisão -->
+		<br><!-- salto de linha -->
+		<br>
+		<img id="internetGuide" src="https://i.kym-cdn.com/photos/images/newsfeed/000/221/156/welcome-to-internet.jpg" alt="Serve para substituir caso a imagem não seja carregada, para facilitar a procura do google e para leitura para cegos">
+		<br>
+		<hr>
+		<div id = "divi">
+			<!--Div é uma tag para agrupar elementos, usada geralmente para estilização
+				Pode existir subdivs-->
+		<h2>Listas desordenada UL:</h2>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<br>
+
+		<h2>Listas ordenada (com numero antes) OL:</h2>
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ol>
+		<br>
+	</div> 
+		<hr>
+		<br>
+		<h2>Criação de tabela:</h2>
+		<table>
+			<!-- <tr> == table row (cria a linha da tabela) -->
+			<!-- <th> = table header (indica que é um item de cabeçalho) -->
+			<!-- <td> = table data (só um item na tabela) -->
+			<tr>
+				<th>Nome</th>
+				<th>Telefone</th>
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td>Joao</td>
+				<td>8293898239</td>
+				<td>ajsjdaj@asjfjaj.com</td>
+			</tr>
+			<tr>
+				<td>Jose</td>
+				<td>8293898239</td>
+				<td>aaaj@asjfjaj.com</td>
+			</tr>
+			<tr>
+				<td>ana</td>
+				<td>8293898239</td>
+				<td>bbbbbbb@asjfjaj.com</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>8293898239</td>
+				<td>ccccccc@asjfjaj.com</td>
+			</tr>
+		</table>
+		<br><br>
+		<hr>
+		<br><br>
+		<h2>Utilizando CSS inline</h2>
+		<br><br>	
+		<a href="https://www.w3schools.com/cssref/"><strong>Todas as propriedades CSS</strong></a>
+		<br><br>
+
+
+		<p style="color: red;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+		<div id = "cm"></div>
+		<br>
+		<div id = "mm"></div>
+		<br>
+		<div id = "im"></div>
+		<br>
+		<div id = "px"></div>
+		<br>
+		<div id = "pt"></div>
+		<br>
+		<div id = "pq"></div>
+
+	</body>
+
+</html>
